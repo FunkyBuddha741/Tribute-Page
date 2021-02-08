@@ -1,0 +1,81 @@
+/* imports */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* root */
+* {
+  /* margin: 0;
+    padding: 0; */
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/* global style */
+
+#main {
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
+}
+
+#title {
+  text-align: center;
+  line-height: 1em;
+}
+
+#title h1 {
+  padding-top: 50px;
+  
+  font-size: 40px;
+}
+
+#img-div {
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+}
+
+#img-div img {
+  width: 100%;
+  padding: 10px;
+}
+
+#img-div p {
+  margin: 0;
+  line-height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#tribute-info {
+  width: 70%;
+  margin: auto;
+}
+
+#tribute-info h2 {
+  text-align: center;
+  margin: 40px;
+}
+
+#tribute-info ul {
+  align-items: center;
+}
+#tribute-info li {
+  line-height: 40px;
+}
+#tribute-info p {
+  margin-top: 45px;
+  margin-left: 20px;
+  line-height: 25px;
+  font-style: italic;
+}
+
+#tribute-links {
+  font-size: 13px;
+  padding: 30px;
+  text-align: center;
+}
